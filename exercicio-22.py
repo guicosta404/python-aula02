@@ -1,3 +1,5 @@
+#Detector de palindromos.
+
 frase = input("Digite uma frase: ").lower()
 if isinstance(frase, str):
     formatado = frase.replace(" ", "").lower()
